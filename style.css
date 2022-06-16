@@ -1,0 +1,124 @@
+body {
+    font-family: Calibri;
+    background: #fff;
+    margin: 0;
+}
+nav {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+}
+nav p.fio {
+    float: right;
+    color: white;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+nav a {
+    line-height: 47px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+header {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+header p.description {
+    width: 580px;
+    margin-inline: auto;
+}
+header hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80px;
+}
+header p.theme {
+    font-weight: bold;
+    font-size: 40px;
+}
+header img {
+    width: 1000px;
+}
+main {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    width: 960px;
+    margin-inline: auto;
+}
+main p {
+    width: 720px;
+    margin-inline: auto;
+}
+article table.container {
+    margin-inline: auto;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+article table.container#more {
+    padding:10px;
+    background-color: #e5e5e5
+}
+article table.container p.title {
+    color: black;
+    background: linear-gradient(#DBDBDB, #A7A7A7);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+article table.container img {
+    width: 520px;
+}
+article table.container a {
+    margin-left: 30px;
+    text-decoration: none;
+    border: 1px gray solid;
+    padding: 10px;
+}
+article table.container a:hover {
+    color: white;
+    background-color: #04AA6D;
+}
+article table.container p {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #575757;
+}
+article table.container p.source {
+    color: #C2C2C2;
+}
+article div.container {
+    margin-inline: auto;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+article div.container p {
+    width: 720px;
+    font-size: 20px;
+    margin-inline: auto;
+}
+article div.container p.title {
+    color: black;
+    background: linear-gradient(#DBDBDB, #A7A7A7);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+article div.container p.source {
+    color: #C2C2C2;
+    text-align: center;
+}
